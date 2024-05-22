@@ -38,7 +38,8 @@ const Content = () => {
         </button>
       </Link>
       {items.result.map((item) => (
-        <Box id={item.id} name={item.name} age={item.price} image={item.image} />
+        <Box id={item.id} name={item.name} age={item.price}image={item.image} />
+        
       ))}
     </>
   );
